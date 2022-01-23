@@ -12,6 +12,8 @@ Photo by Zoltan Tasi on Unsplash - https://unsplash.com/photos/uNXmhzcQjxg
 
 ## Executive Summary ??
 
+Is the Monte Carlo simulation an effective way to predict the future values of cryptocurrencies?
+
 ---
 
 ### Background  
