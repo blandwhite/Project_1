@@ -12,6 +12,8 @@ Photo by Zoltan Tasi on Unsplash - https://unsplash.com/photos/uNXmhzcQjxg
 
 ## Executive Summary ??
 
+The goal of this project is to build a tool to help users evaluate their financial health, and to forecast a reasonably effective investment plan based on their current holdings of cryptocurrencies.
+
 Is the Monte Carlo simulation an effective way to predict the future values of cryptocurrencies?
 
 ---
@@ -76,6 +78,19 @@ prior to running these libraries, install them from the command line:
 ![](Images/Voila_file.gif) #replace with updated GIF for Project_1
 
 ---
+
+## Results
+
+
+
+---
+
+---
+
+## Pain Points
+
+---
+
 ## Next Steps
 
    *1. Take a moment to discuss potential next steps for the project.*
