@@ -10,21 +10,11 @@ Photo by Zoltan Tasi on Unsplash - https://unsplash.com/photos/uNXmhzcQjxg
 
 ---
 
-## Executive Summary ??
+## Executive Summary
 
-Is the Monte Carlo simulation an effective way to predict the future values of cryptocurrencies?
+We are analysts at a high-tech investment firm and one of our clients is considering investing in both ETH and BTC. We have the resposibility of providing them with an effective way in which to predict the future values of the cryptocurrencies.
 
----
-
-### Background  
-
-*DESCRIBE THE USER STORY AND ANY ACCEPTANCE CRITERIA*
-
----
-
-## What's Being Created
-
-In this Project, we will create and submit the following deliverables:
+The goal of this project is to build a tool to help users evaluate their financial health, and to forecast a reasonably effective investment plan based on their current holdings of cryptocurrencies. In this Project, we will create and submit the following deliverables:
 
  - A Jupyter notebook that contains the following:
 
@@ -55,7 +45,7 @@ Python libraries used:
 
 ### Installation Guide
 
-prior to running these libraries, install them from the command line:  
+prior to running these libraries, install them from the command line:
   - pandas: `conda install pandas` or `pip install pandas`  
   - pathlib: `pip install pathlib`
   - MCSimulation: include `MCForecastTools.py` in root directory.
@@ -70,12 +60,52 @@ prior to running these libraries, install them from the command line:
 
 ## Usage
 
-*INCLUDE LINES HERE FOR PRACTICAL USE OF THIS PROGRAM*
-
+We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
+  - Plot the price history for the two cryptocurrencies.
+  - Find the current prices for Ethereum and Bitcoin.
+  - Run a MC simulation of 20 years for a 60/40 (ETH/BTC) portfolio, and then plot the results.
+  - Run a MC simulation of 20 years for a 40/60 (ETH/BTC) portfolio, and then plot the results.
+  - Run a MC simulation of 2 years for a 60/60 (ETH/BTC) portfolio, and then plot the results.
+  - Run a MC simulation of 2 years for a 40/60 (ETH/BTC) portfolio, and then plot the results.
+  - Generate summary statistics for the results of the four Monte Carlo Simulations.
+  - Use the lower and upper 95% confidence intervals to calculate the range and the mean of the possible outcomes for the four Monte Carlo Simulations.
  
 ![](Images/Voila_file.gif) #replace with updated GIF for Project_1
 
 ---
+
+## Results
+
+### MC simulation of 20 years for a 60/40 (ETH/BTC) portfolio
+
+![](Images/MC_twenty_year_sim_plot.png)
+
+![](Images/MC_twenty_year_plot_dist.png)
+
+### MC simulation of 20 years for a 40/60 (ETH/BTC) portfolio
+
+![](Images/MC_twenty_year_sim_plot_2.png)
+
+![](Images/MC_twenty_year_plot_dist_2.png)
+
+### MC simulation of 2 years for a 60/40 (ETH/BTC) portfolio
+
+![](Images/MC_two_year_sim_plot.png)
+
+![](Images/MC_two_year_plot_dist.png)
+
+### MC simulation of 2 years for a 40/60 (ETH/BTC) portfolio
+
+![](Images/MC_two_year_sim_plot_2.png)
+
+![](Images/MC_two_year_plot_dist_2.png)
+
+---
+
+## Pain Points
+
+---
+
 ## Next Steps
 
    *1. Take a moment to discuss potential next steps for the project.*
