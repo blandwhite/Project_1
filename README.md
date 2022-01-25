@@ -82,11 +82,19 @@ We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
 
 ![](Images/MC_twenty_year_plot_dist.png)
 
+There is a 95% chance that a 60% ETH, 40% BTC initial investment of 20585.72 in the portfolio over the next 20 years will end within in the range of  2.62 and  54598.97.
+The mean forecast would result in your initial investment of 20585.72 yielding a balance of  10479.70.
+
+
 ### MC simulation of 20 years for a 40/60 (ETH/BTC) portfolio
 
 ![](Images/MC_twenty_year_sim_plot_2.png)
 
 ![](Images/MC_twenty_year_plot_dist_2.png)
+
+There is a 95% chance that a 60% BTC, 40% ETH initial investment of 20585.72 in the portfolio over the next 20 years will end within in the range of  3.91 and  52075.58.
+The mean forecast would result in your initial investment of 20585.72 yielding a balance of  7817.53.
+
 
 ### MC simulation of 2 years for a 60/40 (ETH/BTC) portfolio
 
@@ -94,23 +102,34 @@ We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
 
 ![](Images/MC_two_year_plot_dist.png)
 
+There is a 95% chance that a 60% ETH, 40% BTC initial investment of 20585.72 in the portfolio over the next 2 years will end within in the range of  1413.49 and 75020.50.
+The mean forecast would result in your initial investment of 20585.72 yielding a balance of  17207.99.
+
+
 ### MC simulation of 2 years for a 40/60 (ETH/BTC) portfolio
 
-![](Images/MC_two_year_sim_plot_2.png)
+![](Images/MC_sim_line_plot_two_year_2.png)
 
 ![](Images/MC_two_year_plot_dist_2.png)
+
+There is a 95% chance that a 60% BTC, 40% ETH initial investment of 20585.72 in the portfolio over the next 2 years will end within in the range of  1822.98 and  75526.31.
+The mean forecast would result in your initial investment of 20585.72 yielding a balance of  18394.38.
 
 ---
 
 ## Pain Points
 
+ - Creating a Multi-index dataframe that provides two keys for the Monte Carlo simulator (keys=indexes).
+ - Results of the MC Simulations were lackluster.
+
+
 ---
 
 ## Next Steps
 
-   *1. Take a moment to discuss potential next steps for the project.*
+   *1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days.*
 
-   *2. Discuss any additional questions that came up that you didn't have time to answer: if you had more weeks to work on your project, what would you research next?*
+   *2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins.*
  
 ---
  
