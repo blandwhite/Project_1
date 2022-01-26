@@ -70,7 +70,7 @@ We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
   - Generate summary statistics for the results of the four Monte Carlo Simulations.
   - Use the lower and upper 95% confidence intervals to calculate the range and the mean of the possible outcomes for the four Monte Carlo Simulations.
  
-![](Images/Voila_file.gif) #replace with updated GIF for Project_1
+![](Images/Voila_file.gif)
 
 ---
 
@@ -78,9 +78,9 @@ We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
 
 ### MC simulation of 20 years for a 60/40 (ETH/BTC) portfolio
 
-![](Images/MC_twenty_year_sim_plot.png)
+![](Images/MC_sim_line_plot.png)
 
-![](Images/MC_twenty_year_plot_dist.png)
+![](Images/MC_sim_dist_plot.png)
 
 There is a 95% chance that a 60% ETH, 40% BTC initial investment of 20585.72 in the portfolio over the next 20 years will end within in the range of  2.62 and  54598.97.
 The mean forecast would result in your initial investment of 20585.72 yielding a balance of  10479.70.
@@ -88,9 +88,9 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 ### MC simulation of 20 years for a 40/60 (ETH/BTC) portfolio
 
-![](Images/MC_twenty_year_sim_plot_2.png)
+![](Images/MC_sim_line_plot_2.png)
 
-![](Images/MC_twenty_year_plot_dist_2.png)
+![](Images/MC_sim_dist_plot_2.png)
 
 There is a 95% chance that a 60% BTC, 40% ETH initial investment of 20585.72 in the portfolio over the next 20 years will end within in the range of  3.91 and  52075.58.
 The mean forecast would result in your initial investment of 20585.72 yielding a balance of  7817.53.
@@ -98,9 +98,9 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 ### MC simulation of 2 years for a 60/40 (ETH/BTC) portfolio
 
-![](Images/MC_two_year_sim_plot.png)
+![](Images/MC_sim_line_plot_two_year.png)
 
-![](Images/MC_two_year_plot_dist.png)
+![](Images/MC_sim_dist_plot_two_year.png)
 
 There is a 95% chance that a 60% ETH, 40% BTC initial investment of 20585.72 in the portfolio over the next 2 years will end within in the range of  1413.49 and 75020.50.
 The mean forecast would result in your initial investment of 20585.72 yielding a balance of  17207.99.
@@ -110,7 +110,7 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 ![](Images/MC_sim_line_plot_two_year_2.png)
 
-![](Images/MC_two_year_plot_dist_2.png)
+![](Images/MC_sim_dist_plot_two_year_2.png)
 
 There is a 95% chance that a 60% BTC, 40% ETH initial investment of 20585.72 in the portfolio over the next 2 years will end within in the range of  1822.98 and  75526.31.
 The mean forecast would result in your initial investment of 20585.72 yielding a balance of  18394.38.
@@ -127,9 +127,9 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 ## Next Steps
 
-   *1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days.*
+1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days.
 
-   *2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins.*
+2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins.
  
 ---
  
