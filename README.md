@@ -70,7 +70,6 @@ We will use the `ETH_analyzer.ipynb` notebook to complete the following tasks:
   - Generate summary statistics for the results of the four Monte Carlo Simulations.
   - Use the lower and upper 95% confidence intervals to calculate the range and the mean of the possible outcomes for the four Monte Carlo Simulations.
  
-![](Images/Voila_file.gif)
 
 ---
 
@@ -120,7 +119,7 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 ## Pain Points
 
  - Creating a Multi-index dataframe that provides two keys for the Monte Carlo simulator (keys=indexes).
- - Results of the MC Simulations were lackluster.
+ - Results of the MC Simulations were lackluster. At least one suspected reason is that we were using historical data going back to November 2017 vs a smaller timeframe, e.g. 3 years (starting January 2019).
 
 
 ---
@@ -129,7 +128,10 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days.
 
-2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins.
+2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins. A primitive version of such an application can be seen by running `python crypto_api.py` from a terminal window. It will display similar to this:
+
+![](Images/crypto_api.gif)
+
  
 ---
  
