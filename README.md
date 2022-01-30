@@ -22,7 +22,7 @@ The goal of this project is to build a tool to help users evaluate their financi
 
     2. Professionally styled and formatted interactive visualizations.
 
- - A video of the web application that has been created by deploying our Jupyter notebook via the Voilà library.
+ - A video of the `crypto_api.py` application running, a primitive preview of a user app that provides real-time cryto pricing and forecasting based on the most recent historical data.
 
 ---
 
