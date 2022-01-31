@@ -126,7 +126,7 @@ The mean forecast would result in your initial investment of 20585.72 yielding a
 
 ## Next Steps
 
-1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days.
+1. Run MC Simulations to compare 252 trading days per year vs. 365 trading days. In other words, run new 20 year MC Simulations with 365 trading days per year and run new 2 year MC Simulations with 252 trading days per year.
 
 2. Consider running the analyzer using an API pull to get more current data. Give user the ability to change certain variables, e.g. Coin name, length of simulation and weights between coins. A primitive version of such an application can be seen by running `python crypto_api.py` from a terminal window. It will display similar to this:
 
