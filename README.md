@@ -1,4 +1,4 @@
-# Project 1: An Analysis of Cryptocurrency using Monte Carlo Simulation
+# Forecasting Cryptocurrency using Monte Carlo Simulation
 UNCC Online FinTech Bootcamp Module 8-9 Project due by 11:59pm 1/30/2022
 
 
